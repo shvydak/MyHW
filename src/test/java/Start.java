@@ -9,7 +9,7 @@ WebDriver wd;
     public void start(){
     wd = new ChromeDriver();
     wd.get("http://www.google.com");
-    wd.quit();
+    wd.close();
 }
 
 
